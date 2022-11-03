@@ -7,7 +7,7 @@ pipeline {
     stages {
          stage('Cloning from GitHub') {
                 steps {
-                    git branch: 'main', url: 'https://github.com/ihebmbarki/Devops-Spring.git'
+                    git branch: 'main', url: 'https://github.com/ihebmbarki/Devops.git'
                 }
                 
             }
